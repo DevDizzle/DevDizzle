@@ -6,12 +6,12 @@ I'm an AI/ML enthusiast with a strong background in data analytics and problem-s
 ## 👀 Interests
 - **Machine Learning Engineering**: Specializing in computer vision, natural language processing, and structured data.
 - **Portfolio Optimization**: Leveraging mathematical algorithms like Linear and Quadratic Programming for financial applications.
-- **Path Planning**: Developing algorithms for autonomous vehicles, including waste collection route optimization.
+- **Path Planning**: Developing algorithms for autonomous vehicles & VRP (Vehicle Route Problems)
 - **Kaggle Competitions**: Experimenting with innovative AI models to tackle unique challenges.
 
 ## 🌱 What I’m Learning
 - Fine-tuning deep learning models for high-impact applications.
-- Implementing AI solutions on Google Cloud and Microsoft Fabric.
+- Implementing AI solutions on Google Cloud
 - Advanced methods for feature selection and handling class imbalances in datasets.
 
 ## 💞️ Collaboration Opportunities
