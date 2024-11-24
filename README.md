@@ -21,7 +21,7 @@ I'm looking to collaborate on:
 - **Educational Resources**: Helping others understand and apply AI/ML concepts effectively.
 
 ## 📫 How to Reach Me
-- [LinkedIn](https://www.linkedin.com/in/evan-parra)
+- [LinkedIn](https://www.linkedin.com//in/evanparra/)
 
 ## ⚡ Fun Fact
 When I’m not working on AI models or solving optimization problems, I let my wife and kids boss me around.
