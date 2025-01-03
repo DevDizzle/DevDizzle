@@ -17,8 +17,8 @@ I am a machine learning engineer with a focus on developing impactful AI solutio
 
 ## Interests and Collaboration
 I am passionate about:
-- **AI for Good**: Solving healthcare challenges and advancing technology for societal impact.
-- **Optimization Algorithms**: Applying mathematical methods to improve decision-making processes.
+- **AI for Good**: Advancing AI to maintain America’s leadership in innovation and technology.
+- **Optimization Algorithms**: Methods to improve decision-making processes.
 - **Academic Collaboration**: Excited to join the ISCAAS lab at FAU and contribute to ongoing research.
 
 ## Hobbies
