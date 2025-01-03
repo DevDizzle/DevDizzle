@@ -1,27 +1,25 @@
-# 👋 Hi, I’m @DevDizzle
+## About Me
+I am a machine learning engineer with a focus on developing impactful AI solutions across healthcare, logistics, and personal finance. My expertise lies in leveraging advanced machine learning techniques, optimization algorithms, and cloud technologies to solve real-world problems.
 
-## 🚀 About Me
-I'm an AI/ML enthusiast with a strong background in data analytics and problem-solving. My work focuses on applying advanced machine learning techniques, optimization algorithms, and mathematical models to solve real-world problems across various domains.
+## Technical Skills
+- **Machine Learning Frameworks**: Proficient in TensorFlow, PyTorch, and Scikit-learn.
+- **Cloud Platforms**: Skilled in Google Cloud Technologies, including Vertex AI and Dataflow (Apache Beam).
+- **AI Applications**: Experienced in data preprocessing, model training, evaluation, and deployment at scale.
 
-## 👀 Interests
-- **Machine Learning Engineering**: Specializing in computer vision, natural language processing, and structured data.
-- **Portfolio Optimization**: Leveraging mathematical algorithms like Linear and Quadratic Programming for financial applications.
-- **Path Planning**: Developing algorithms for autonomous vehicles & VRP (Vehicle Route Problems)
-- **Kaggle Competitions**: Experimenting with innovative AI models to tackle unique challenges.
+## Notable Projects
+- **Skin Lesion Classification**: Developed a classifier using Vertex AI AutoML, achieving 94% precision and recall in identifying malignant lesions.
+- **Route Optimization App**: Built a web application to solve Vehicle Route Problems (VRP), simplifying complex logistics challenges.
+- **RobotX 2024 USV Competition**: Contributed to Team Owltonomous by developing an object detection model using YOLO.
 
-## 🌱 What I’m Learning
-- Fine-tuning deep learning models for high-impact applications.
-- Implementing AI solutions on Google Cloud
-- Advanced methods for feature selection and handling class imbalances in datasets.
+## Research and Writing
+- Authored blogs on topics like Neuro-Symbolic AI, combining neural networks and symbolic reasoning to enhance decision-making in AI systems.  
+  *Example: [Leveraging Neuro-Symbolic AI to Build an LLM Judge Framework](https://www.linkedin.com/pulse/leveraging-neuro-symbolic-ai-build-llm-judge-framework-evan-parra)*
 
-## 💞️ Collaboration Opportunities
-I'm looking to collaborate on:
-- **Optimization Projects**: From portfolio allocation to operational route planning.
-- **AI for Good**: Projects that use AI to solve meaningful, real-world problems.
-- **Educational Resources**: Helping others understand and apply AI/ML concepts effectively.
+## Interests and Collaboration
+I am passionate about:
+- **AI for Good**: Solving healthcare challenges and advancing technology for societal impact.
+- **Optimization Algorithms**: Applying mathematical methods to improve decision-making processes.
+- **Academic Collaboration**: Excited to join the ISCAAS lab at FAU and contribute to ongoing research.
 
-## 📫 How to Reach Me
-- [LinkedIn](https://www.linkedin.com//in/evanparra/)
-
-## ⚡ Fun Fact
-When I’m not working on AI models or solving optimization problems, I let my wife and kids boss me around.
+## Hobbies
+In my free time, I enjoy exploring philosophy, building web applications, and fostering a balance between career ambitions and raising my family.
