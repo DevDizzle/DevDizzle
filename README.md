@@ -1,1 +1,1 @@
-I emjoy building practical AI solutions—from skin lesion detection and financial analysis bots to route optimization platforms. I work with machine learning, cloud technologies, and full-stack development, always learning and exploring new ideas. Welcome to my GitHub!
+I emjoy building practical AI solutions—from skin lesion detection and financial analysis agents to route optimization agents. I work with machine learning, cloud technologies, and full-stack development, always learning and exploring new ideas. Welcome to my GitHub!
