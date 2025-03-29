@@ -1,1 +1,3 @@
-I emjoy building practical AI solutions—from skin lesion detection and financial analysis agents to route optimization agents. I work with machine learning, cloud technologies, and full-stack development, always learning and exploring new ideas. Welcome to my GitHub!
+I build multi-agent AI solutions, integrating machine learning, cloud technologies, and full-stack development. I'm driven by a passion for continuous learning and exploring cutting-edge concepts. Welcome to my GitHub!
+
+
