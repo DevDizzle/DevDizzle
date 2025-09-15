@@ -45,4 +45,4 @@ I'm always interested in discussing new projects, collaboration, or opportunitie
 
 * **Email:** eraphaelparra@gmail.com
 * **LinkedIn:** [linkedin.com/in/eraphaelparra](https://www.linkedin.com/in/eraphaelparra/)
-* **Book a Meeting:** [Schedule a 30-min chat on Calendly](https://calendly.com/eraphaelparra/30min)
+* **Book a Meeting:** [Schedule a 30-min chat via Google Calendar](https://calendar.app.google/RQpDEc4KyvTfcLb7A)
