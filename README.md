@@ -1,4 +1,4 @@
-# Hi, I'm Evan 👋 Welcome to Dev Dizzle's Repo!
+# Hi, I'm Evan 👋, Welcome to Dev Dizzle's Repo!
 
 I build intelligent, end-to-end AI systems on Google Cloud that solve real-world business problems. From data pipelines to full-stack applications, I love shipping products that work.
 
