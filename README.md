@@ -1,13 +1,8 @@
 # Hi, I'm Evan 👋
 
-I build practical AI and analytics on Google Cloud that **reduce busywork and speed up decisions**. From data pipelines to full-stack apps, I like shipping things that work.
+I’m completing an **M.S. in Artificial Intelligence** at Florida Atlantic University (expected 2025) and enjoy work at the intersection of machine learning, cloud infrastructure, and product.
 
 [LinkedIn](https://www.linkedin.com/in/eraphaelparra/) · [profitscout.app](https://profitscout.app) · [eraphaelparra@gmail.com](mailto:eraphaelparra@gmail.com)
-
----
-
-## About Me
-I’m completing an **M.S. in Artificial Intelligence** at Florida Atlantic University (expected 2025) and enjoy work at the intersection of machine learning, cloud infrastructure, and product.
 
 ---
 
