@@ -20,7 +20,7 @@ Prototype triage for dermoscopic images with SHAP overlays to support clinician 
 
 ---
 
-## Tools I Use Often
+## Tools
 
 <!-- Cloud & MLOps -->
 ![Google Cloud](https://img.shields.io/badge/Cloud-Google%20Cloud-blue)
