@@ -1,64 +1,56 @@
-# Hi, I'm Evan 👋
+# Hi, I'm Evan Parra 👋
 
-I’m completing an **M.S. in Artificial Intelligence** at Florida Atlantic University (expected 2025) and enjoy work at the intersection of machine learning, cloud infrastructure, and product.
+### Seasoned AI Engineer & Full-Stack Developer
+**[evanparra.ai](https://evanparra.ai) | [GammaRips](https://gammarips.com)**
 
-[LinkedIn](https://www.linkedin.com/in/eraphaelparra/) · [profitscout.app](https://profitscout.app) · [eraphaelparra@gmail.com](mailto:eraphaelparra@gmail.com)
-
----
-
-## Featured Projects
-
-### 🟩 ProfitScout — Options Research Hub
-**Live:** [profitscout.app](https://profitscout.app)  
-End-to-end platform that surfaces structured **Top Call/Put setups** and per-ticker analysis for the Russell 1000—so users start from a shortlist instead of a blank screen.  
-**Stack:** Vertex AI (embeddings/HPO), BigQuery, Cloud Run, Firebase, Stripe, React.
-
-### 🩺 MaculaCutis — Dermatology Second-Opinion MVP
-**Live:** [MaculaCutis.com](https://MaculaCutis.com)  
-Prototype triage for dermoscopic images with SHAP overlays to support clinician review.  
-**Stack:** Vertex AI AutoML Vision, GCS, Dataflow/Beam, Firebase, Node.js.
+I specialize in building end-to-end AI systems, from serverless data pipelines to production-grade ML models. My work focuses on automating complex workflows using **Google Cloud Platform (GCP)**, **Vertex AI**, and **Large Language Models**.
 
 ---
 
-## Tools
+## 🚀 Flagship Project: GammaRips
+**[Live Platform](https://gammarips.com)**
 
-<!-- Cloud & MLOps -->
-![Google Cloud](https://img.shields.io/badge/Cloud-Google%20Cloud-blue)
-![Vertex AI](https://img.shields.io/badge/ML_Platform-Vertex%20AI-blue)
-![BigQuery](https://img.shields.io/badge/Data-BigQuery-blue)
-![Cloud Run](https://img.shields.io/badge/Serverless-Cloud%20Run-blue)
-![Cloud Functions](https://img.shields.io/badge/Functions-Cloud%20Functions-blue)
-![Pub/Sub](https://img.shields.io/badge/Messaging-Pub%2FSub-blue)
-![Workflows](https://img.shields.io/badge/Orchestration-Workflows-blue)
-![Docker](https://img.shields.io/badge/Containers-Docker-informational)
+An AI-powered financial analysis platform that generates actionable trading signals for the Russell 1000. It automates the ingestion of financial data, analyzes it using custom ML models, and surfaces structured Call/Put setups.
 
-<!-- ML -->
-![Python](https://img.shields.io/badge/Code-Python-yellow)
-![TensorFlow](https://img.shields.io/badge/ML-TensorFlow-orange)
-![scikit--learn](https://img.shields.io/badge/ML-scikit--learn-orange)
-![XGBoost](https://img.shields.io/badge/ML-XGBoost-orange)
-![Embeddings](https://img.shields.io/badge/NLP-Embeddings-lightgrey)
-![RAG](https://img.shields.io/badge/NLP-RAG-lightgrey)
-![HPO](https://img.shields.io/badge/ML-Hyperparameter%20Optimization-lightgrey)
-
-<!-- Data & Pipelines -->
-![SQL](https://img.shields.io/badge/Data-SQL-success)
-![Apache Beam](https://img.shields.io/badge/Pipelines-Apache%20Beam-success)
-![ETL/ELT](https://img.shields.io/badge/Data-ETL%2FELT-success)
-![Experiment Tracking](https://img.shields.io/badge/ML-Experiment%20Tracking-success)
-
-<!-- Web -->
-![React](https://img.shields.io/badge/Web-React-61DAFB)
-![Next.js](https://img.shields.io/badge/Web-Next.js-black)
-![Firebase](https://img.shields.io/badge/Backend-Firebase-ffca28)
-![Stripe](https://img.shields.io/badge/Payments-Stripe-635BFF)
-![REST APIs](https://img.shields.io/badge/API-REST-lightgrey)
+**The Code Behind the Platform:**
+* **[profitscout-engine](https://github.com/DevDizzle/profitscout-engine):** The serverless backend built on GCP. Handles data ingestion, pipeline orchestration, and signal generation.
+* **[profitscout-models](https://github.com/DevDizzle/profitscout-models):** The ML pipeline using Vertex AI for feature engineering and training.
+* **[profitscout-gpt](https://github.com/DevDizzle/profitscout-gpt):** FastAPI backend serving AI-driven financial research and summaries.
 
 ---
 
-## Let's Connect
-I’m open to new projects and collaborations.
+## 🛠 Selected Projects
 
-- **Email:** [eraphaelparra@gmail.com](mailto:eraphaelparra@gmail.com)  
-- **LinkedIn:** [linkedin.com/in/eraphaelparra](https://www.linkedin.com/in/eraphaelparra/)  
-- **Book a meeting:** [Schedule a 30-min chat](https://calendar.app.google/RQpDEc4KyvTfcLb7A)
+### 🧠 [SciPaper-Hub (PaperRec)](https://github.com/DevDizzle/SciPaper-Hub)
+**RAG & Vector Search**
+A research paper recommendation engine powered by arXiv.
+* **Tech:** Gemini Embeddings, Vertex AI Vector Search, Cloud Run.
+* **Features:** Harvests papers from CS domains (AI, CV, RO), embeds abstracts, and serves semantic search results via API.
+
+### 🩺 [MaculaCutis](https://github.com/DevDizzle/MaculaCutis)
+**Computer Vision in Healthcare**
+A dermatology second-opinion MVP designed to assist clinicians.
+* **Tech:** Vertex AI AutoML Vision, SHAP (Explainable AI), Firebase.
+* **Features:** Triage prototype for dermoscopic images with explainability overlays.
+
+### 👁️ [YOLOv9 Object Detection Guide](https://github.com/DevDizzle/yolov9-object-detection-guide)
+**Computer Vision Resource**
+A comprehensive guide and codebase for fine-tuning YOLOv9 on custom datasets, covering everything from data preparation to inference.
+
+---
+
+## 💻 Tech Stack
+
+| Domain | Tools |
+| :--- | :--- |
+| **AI & ML** | Vertex AI, Gemini, OpenAI API, TensorFlow/Keras, PyTorch, YOLO |
+| **Cloud & DevOps** | Google Cloud Platform (GCP), Cloud Run, Cloud Functions, BigQuery, Docker |
+| **Backend** | Python, FastAPI, Node.js, Firebase |
+| **Frontend** | React, Tailwind CSS, Astro |
+
+---
+
+### 📫 Connect with Me
+* **Hire Me:** [evanparra.ai](https://evanparra.ai)
+* **LinkedIn:** [linkedin.com/in/eraphaelparra](https://linkedin.com/in/eraphaelparra)
+* **Email:** [admin@evanparra.ai](mailto:admin@evanparra.ai)
