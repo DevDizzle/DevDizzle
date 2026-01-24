@@ -7,10 +7,25 @@ I specialize in building end-to-end AI systems, from serverless data pipelines t
 
 ---
 
-## 🚀 Flagship Project: GammaRips
+## 🏛️ Featured Enterprise Architecture: UrbanNexus
+**Governed Multi-Agent Smart City Orchestrator**
+**[View Repository](https://github.com/DevDizzle/smart-city)**
+
+UrbanNexus is an enterprise-grade decision engine designed to solve the "Black Box" problem in autonomous AI. It moves beyond simple chatbots by implementing a rigorous **"Advocate vs. Critic"** architecture, ensuring that AI-generated infrastructure proposals are safe, compliant, and hallucination-free.
+
+**Enterprise Value & Governance:**
+* **Constitutional AI Patterns:** Implements a strict "Supervisor-Worker" hierarchy where specific agents (Privacy Counsel, OT Security) act as adversarial critics to vet proposals against ingested regulatory documents (NIST, CJIS, Sunshine Laws).
+* **Protocol Engineering:** Uses **Google's Agent Development Kit (ADK)** to enforce deterministic state machines. Agents cannot proceed to a "Decision" state without passing specific validation gates defined in code.
+* **Auditability:** Designed for regulated industries, the system produces a full, immutable audit trail of the reasoning process, moving from unstructured reasoning to structured, defensible JSON outputs.
+
+**Stack:** Google ADK, Gemini Pro, Vertex AI Search (RAG), FastAPI, Next.js (TypeScript), Firestore.
+
+---
+
+## 🏢 Production System & Venture: GammaRips
 **[Live Platform](https://gammarips.com)**
 
-An AI-powered financial analysis platform that generates actionable trading signals for the Russell 1000. It automates the ingestion of financial data, analyzes it using custom ML models, and surfaces structured Call/Put setups.
+I founded and built this company, architecting a fully production-grade AI financial analysis platform on Google Cloud. The system generates actionable trading signals for the Russell 1000 by automating the ingestion of financial data, analyzing it using custom ML models, and surfacing structured Call/Put setups.
 
 **The Code Behind the Platform:**
 * **[profitscout-engine](https://github.com/DevDizzle/profitscout-engine):** The serverless backend built on GCP. Handles data ingestion, pipeline orchestration, and signal generation.
@@ -43,10 +58,10 @@ A comprehensive guide and codebase for fine-tuning YOLOv9 on custom datasets, co
 
 | Domain | Tools |
 | :--- | :--- |
-| **AI & ML** | Vertex AI, Gemini, OpenAI API, TensorFlow/Keras, PyTorch, YOLO |
+| **AI & Orchestration** | **Google ADK**, Vertex AI, Gemini, OpenAI API, TensorFlow/Keras, PyTorch, YOLO |
 | **Cloud & DevOps** | Google Cloud Platform (GCP), Cloud Run, Cloud Functions, BigQuery, Docker |
 | **Backend** | Python, FastAPI, Node.js, Firebase |
-| **Frontend** | React, Tailwind CSS, Astro |
+| **Frontend** | React, Next.js, TypeScript, Tailwind CSS, Astro |
 
 ---
 
