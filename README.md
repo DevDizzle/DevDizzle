@@ -27,7 +27,7 @@ A fully production-grade AI financial analysis platform on Google Cloud. Generat
 
 ## 🛠 Selected Projects
 
-### 🧾 [Galatiq Invoice Agent](https://github.com/DevDizzle/galatiq-invoice-agent)
+### 🧾 [Autonomous Invoice Agent](https://github.com/DevDizzle/galatiq-invoice-agent)
 Autonomous multi-agent system automating the full invoice lifecycle: Ingestion → Validation → VP Approval → Payment. Powered by xAI Grok 4.1 Fast Reasoning for complex data extraction and fraud detection with self-correction loops.
 * **Tech:** Python, LangGraph, xAI Grok 4.1, Streamlit, FastAPI, Google Cloud Run, Docker
 
