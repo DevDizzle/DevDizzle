@@ -1,8 +1,8 @@
 # Evan Parra 👋
 
-### ML Engineer | Building Production AI Systems on GCP
+### ML Engineer | Building Production AI & Generative Systems on GCP
 
-I build end-to-end ML systems that ship to production. My focus is autonomous pipelines, MLOps, and LLM-powered applications on **Google Cloud Platform**.
+I build end-to-end ML systems that ship to production. My focus is autonomous pipelines, generative AI, model evaluation, and LLM-powered applications on **Google Cloud Platform**.
 
 **MS in Artificial Intelligence (FAU, 2025) | Google Certified ML Engineer**
 
@@ -12,10 +12,12 @@ I build end-to-end ML systems that ship to production. My focus is autonomous pi
 
 | Area | Focus |
 |------|-------|
+| **Generative AI** | Diffusion models, fine-tuning (LoRA/QLoRA), multi-modal pipelines, content safety |
 | **ML Pipelines** | End-to-end data ingestion → feature engineering → model deployment |
-| **LLM Applications** | RAG systems, prompt chaining, MCP tool servers |
+| **Evaluation & Safety** | Hallucination detection, factual accuracy, brand safety, A/B benchmarking |
+| **LLM Applications** | RAG systems, prompt chaining, MCP tool servers, agent orchestration |
 | **MLOps** | CI/CD for ML, model versioning, monitoring, cost optimization |
-| **Data Engineering** | BigQuery, ETL/ELT pipelines, real-time processing |
+| **Data Engineering** | BigQuery, ETL/ELT pipelines, multi-source integration |
 
 ---
 
@@ -38,7 +40,51 @@ Model Context Protocol server enabling AI agents to query real-time financial da
 
 ---
 
-## 📂 Selected Projects
+## 🧪 Generative AI & Evaluation
+
+### [GenAI Evaluation Framework](https://github.com/DevDizzle/genai-eval-framework)
+Production evaluation framework for generative AI systems. NLI-based hallucination detection, factual accuracy verification, content safety scoring, and A/B model benchmarking with statistical significance testing.
+
+- Hallucination detection via cross-encoder NLI + semantic similarity
+- Brand safety scoring with configurable content rating (G/PG/PG-13/R)
+- A/B comparison engine with paired t-test and effect size analysis
+- HTML + JSON reporting for CI/CD integration
+
+**Stack:** Transformers, Sentence-Transformers, Detoxify, Scikit-Learn, Pydantic
+
+### [LoRA Fine-Tuning Lab](https://github.com/DevDizzle/lora-finetune-lab)
+Parameter-efficient fine-tuning of LLMs using QLoRA. 4-bit quantization with PEFT adapters, full training pipeline with experiment tracking.
+
+- QLoRA with BitsAndBytes NF4 quantization
+- SFTTrainer from TRL with gradient accumulation
+- Weights & Biases experiment tracking and evaluation
+- Interactive inference with streaming output
+
+**Stack:** Transformers, PEFT, TRL, Accelerate, BitsAndBytes, W&B
+
+### [Diffusion Style Transfer](https://github.com/DevDizzle/diffusion-style-transfer)
+Text-to-image generation with Stable Diffusion XL, IP-Adapter style conditioning, and content safety guardrails.
+
+- SDXL base + refiner pipeline with safety-first architecture
+- Brand consistency scoring via CLIP embeddings
+- Content rating system (G/PG/PG-13) for family-friendly generation
+- NSFW classification and automated content filtering
+
+**Stack:** Diffusers, Transformers, OpenCLIP, PyTorch, Pillow
+
+### [Whisper Multimodal Pipeline](https://github.com/DevDizzle/whisper-multimodal-pipeline)
+Cross-modal AI pipeline: audio transcription → LLM analysis → structured output. Dual backend support with async orchestration.
+
+- Whisper + Google Cloud Speech-to-Text dual backends
+- Gemini-powered analysis: sentiment, entities, topics, action items
+- Pydantic-validated structured JSON output
+- Async pipeline with retry logic and batch processing
+
+**Stack:** OpenAI Whisper, Google Generative AI, Pydantic, PyDub
+
+---
+
+## 📂 More Projects
 
 ### [Autonomous Invoice Agent](https://github.com/DevDizzle/galatiq-invoice-agent)
 Multi-agent system automating invoice lifecycle: Ingestion → Validation → Approval → Payment. Self-correction loops for data extraction.
@@ -65,12 +111,14 @@ End-to-end guide for fine-tuning YOLOv9 on custom datasets.
 ## 💻 Tech Stack
 
 ```
-ML/AI:       Vertex AI, Gemini, TensorFlow, PyTorch, Scikit-Learn
-Cloud:       GCP (BigQuery, Cloud Run, Pub/Sub, Cloud Functions)
-MLOps:       GitHub Actions, Cloud Build, Docker, Model Registry
-Data:        Python, SQL, Pandas, dbt, Airflow
-Backend:     FastAPI, Python, Node.js
-Frontend:    Next.js, React, TypeScript
+Generative AI:  Diffusers, PEFT/LoRA, Whisper, Stable Diffusion, CLIP
+ML/AI:          Vertex AI, Gemini, TensorFlow, PyTorch, Scikit-Learn
+Evaluation:     Sentence-Transformers, Detoxify, W&B, custom frameworks
+Cloud:          GCP (BigQuery, Cloud Run, Pub/Sub, Cloud Functions, Vertex AI)
+MLOps:          GitHub Actions, Cloud Build, Docker, Model Registry
+Data:           Python, SQL, Pandas, dbt, Airflow
+Backend:        FastAPI, Python, Node.js
+Frontend:       Next.js, React, TypeScript
 ```
 
 ---
@@ -86,9 +134,10 @@ Frontend:    Next.js, React, TypeScript
 ## 📫 Connect
 
 - **LinkedIn:** [linkedin.com/in/evanparra](https://linkedin.com/in/evanparra)
+- **Portfolio:** [evanparra.ai](https://evanparra.ai)
 - **Email:** eraphaelparra@gmail.com
 - **GitHub:** You're here
 
 ---
 
-*Currently open to ML Engineer and Data Engineer opportunities. Remote or US-based.*
+*Currently open to ML Engineer, GenAI Engineer, and Data Engineer opportunities. Remote or US-based.*
