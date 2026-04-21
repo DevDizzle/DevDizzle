@@ -23,7 +23,7 @@ I build end-to-end ML systems that ship to production. My focus is autonomous pi
 
 ## 🚀 Production Systems
 
-### [Financial ML Platform](https://github.com/DevDizzle/profitscout-engine)
+### [Financial ML Platform](https://github.com/DevDizzle/gammarips-engine)
 Autonomous trading signal system processing ~10GB daily market data. Full MLOps lifecycle from ingestion to deployment.
 
 - LLM-augmented ETL with prompt chaining
@@ -33,7 +33,7 @@ Autonomous trading signal system processing ~10GB daily market data. Full MLOps 
 
 **Stack:** Python, BigQuery, Vertex AI, Cloud Run, Pub/Sub, MCP
 
-### [MCP Financial Tools Server](https://github.com/DevDizzle/profitscout-mcp)
+### [MCP Financial Tools Server](https://github.com/DevDizzle/gammarips-mcp)
 Model Context Protocol server enabling AI agents to query real-time financial data. Production-deployed on Cloud Run with SSE transport.
 
 **Stack:** Python, FastMCP, BigQuery, Cloud Run
