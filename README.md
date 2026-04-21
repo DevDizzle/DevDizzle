@@ -86,6 +86,11 @@ Cross-modal AI pipeline: audio transcription → LLM analysis → structured out
 
 ## 📂 More Projects
 
+### [Healthcare Graph RAG Agent](https://github.com/DevDizzle/healthcare-graph-rag-agent)
+Knowledge-grounded clinical Q&A agent using Graph RAG with Google Cloud. Combines medical knowledge graphs with retrieval-augmented generation for accurate, citation-backed healthcare answers.
+
+**Stack:** Python, ADK, Gemini, Spanner Graph, Vertex AI, Cloud Run
+
 ### [Autonomous Invoice Agent](https://github.com/DevDizzle/galatiq-invoice-agent)
 Multi-agent system automating invoice lifecycle: Ingestion → Validation → Approval → Payment. Self-correction loops for data extraction.
 
