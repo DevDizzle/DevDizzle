@@ -1,10 +1,21 @@
-# Evan Parra 👋
+# Evan Parra
 
-### ML Engineer | Building Production AI & Generative Systems on GCP
+### Fractional AI engineer · St. Augustine / Jacksonville, FL
 
-I build end-to-end ML systems that ship to production. My focus is autonomous pipelines, generative AI, model evaluation, and LLM-powered applications on **Google Cloud Platform**.
+I run a specialist practice replacing per-seat licensed software — ERP modules, BI dashboards, CRM workflows — with custom systems clients own in their own cloud. Three SKUs, fixed pricing, no negotiation. The repos below are the public ones; the engagements happen privately.
 
-**MS in Artificial Intelligence (FAU, 2025) | Google Certified ML Engineer**
+**Practice:** [evanparra.ai](https://evanparra.ai)
+
+---
+
+## What I Ship
+
+**Founding engagement — Regional commercial electrical contractor (NE Florida, anonymized).** Embedded in the client's Azure tenant, replacing Viewpoint Vista and Trimble per-seat workflows app by app. **~$150K/yr in retired seat cost (and growing).** ERP stays the system of record; the seats don't.
+
+**Cross-vertical proof — my own products, both live:**
+
+- **[TextTimeline](https://texttimeline.com)** — legal document intelligence. Messy text exports become attorney-ready chronological timelines with 100% source citations. FAISS + BM25 hybrid retrieval, Cloud Run, Firestore, Gemini. *(Source private — paid product.)*
+- **[GammaRips](https://gammarips.com)** — autonomous overnight options-flow scanner. 14 Cloud Run services, ~20 schedulers, multi-agent ADK publishing layer with deterministic compliance gating.
 
 ---
 
@@ -12,19 +23,20 @@ I build end-to-end ML systems that ship to production. My focus is autonomous pi
 
 | Area | Focus |
 |------|-------|
+| **SaaS seat replacement** | Custom apps replacing per-user ERP, BI, and workflow tool licenses |
 | **Generative AI** | Diffusion models, fine-tuning (LoRA/QLoRA), multi-modal pipelines, content safety |
+| **LLM Applications** | RAG systems, prompt chaining, MCP tool servers, agent orchestration |
 | **ML Pipelines** | End-to-end data ingestion → feature engineering → model deployment |
 | **Evaluation & Safety** | Hallucination detection, factual accuracy, brand safety, A/B benchmarking |
-| **LLM Applications** | RAG systems, prompt chaining, MCP tool servers, agent orchestration |
 | **MLOps** | CI/CD for ML, model versioning, monitoring, cost optimization |
 | **Data Engineering** | BigQuery, ETL/ELT pipelines, multi-source integration |
 
 ---
 
-## 🚀 Production Systems
+## 🚀 Public Production Systems
 
-### [Financial ML Platform](https://github.com/DevDizzle/gammarips-engine)
-Autonomous trading signal system processing ~10GB daily market data. Full MLOps lifecycle from ingestion to deployment.
+### [GammaRips Engine](https://github.com/DevDizzle/gammarips-engine)
+Autonomous trading signal platform processing ~10GB daily market data. Full MLOps lifecycle from ingestion to deployment.
 
 - LLM-augmented ETL with prompt chaining
 - MCP server for AI agent tool-calling
@@ -32,6 +44,12 @@ Autonomous trading signal system processing ~10GB daily market data. Full MLOps 
 - 50% inference cost reduction via dynamic model routing
 
 **Stack:** Python, BigQuery, Vertex AI, Cloud Run, Pub/Sub, MCP
+
+### [GammaRips Webapp](https://github.com/DevDizzle/gammarips-webapp)
+Customer-facing surface for GammaRips. Daily mechanically-held picks, subscription billing, compliance disclosures.
+
+### [GammaRips Models](https://github.com/DevDizzle/gammarips-models)
+ML core for the GammaRips signal stack. ~3x precision lift versus baseline, with a quarterly retraining cadence.
 
 ### [MCP Financial Tools Server](https://github.com/DevDizzle/gammarips-mcp)
 Model Context Protocol server enabling AI agents to query real-time financial data. Production-deployed on Cloud Run with SSE transport.
@@ -107,7 +125,7 @@ Multi-document scientific paper Q&A with citation tracking. Vertex AI Vector Sea
 **Stack:** RAG, Vertex AI, Gemini, FastAPI, Firestore
 
 ### [YOLOv9 Detection Guide](https://github.com/DevDizzle/yolov9-object-detection-guide)
-End-to-end guide for fine-tuning YOLOv9 on custom datasets.
+Computer vision research from M.S. AI coursework at Florida Atlantic University — end-to-end guide for fine-tuning YOLOv9 on custom datasets.
 
 **Stack:** PyTorch, YOLO, Computer Vision
 
@@ -119,7 +137,7 @@ End-to-end guide for fine-tuning YOLOv9 on custom datasets.
 Generative AI:  Diffusers, PEFT/LoRA, Whisper, Stable Diffusion, CLIP
 ML/AI:          Vertex AI, Gemini, TensorFlow, PyTorch, Scikit-Learn
 Evaluation:     Sentence-Transformers, Detoxify, W&B, custom frameworks
-Cloud:          GCP (BigQuery, Cloud Run, Pub/Sub, Cloud Functions, Vertex AI)
+Cloud:          GCP (BigQuery, Cloud Run, Pub/Sub, Cloud Functions, Vertex AI), Azure (client engagements)
 MLOps:          GitHub Actions, Cloud Build, Docker, Model Registry
 Data:           Python, SQL, Pandas, dbt, Airflow
 Backend:        FastAPI, Python, Node.js
@@ -128,21 +146,23 @@ Frontend:       Next.js, React, TypeScript
 
 ---
 
-## 📜 Certifications
+## 📜 Credentials
 
-- **Google Professional Machine Learning Engineer** (2025)
-- **Google Advanced Data Analytics Certificate**
-- **MS Artificial Intelligence** — Florida Atlantic University
+- **M.S. Artificial Intelligence** — Florida Atlantic University
+- **B.A. Economics** — Florida International University
+- **Google Professional Machine Learning Engineer**
+- **Google Advanced Data Analytics**
+- **Lean Six Sigma Green Belt**
+- **EVANPARRA.AI LLC** — SAM.gov registered (UEI FPLQTQK39ZE1), SBIR/STTR eligible (CLARA / DARPA proposal submitted Mar 2026)
 
 ---
 
 ## 📫 Connect
 
+- **Practice:** [evanparra.ai](https://evanparra.ai)
+- **Email:** evan@evanparra.ai
 - **LinkedIn:** [linkedin.com/in/evanparra](https://linkedin.com/in/evanparra)
-- **Portfolio:** [evanparra.ai](https://evanparra.ai)
-- **Email:** eraphaelparra@gmail.com
-- **GitHub:** You're here
 
 ---
 
-*Currently open to ML Engineer, GenAI Engineer, and Data Engineer opportunities. Remote or US-based.*
+*Booking discovery engagements through [evanparra.ai](https://evanparra.ai). Based in NE Florida; embedded work in Azure or GCP tenants.*
