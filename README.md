@@ -1,16 +1,18 @@
 # Evan Parra
 
-### Fractional AI engineer · St. Augustine / Jacksonville, FL
+### AI engineer · St. Augustine / Jacksonville, FL
 
-I run a specialist practice replacing per-seat licensed software — ERP modules, BI dashboards, CRM workflows — with custom systems clients own in their own cloud. Three SKUs, fixed pricing, no negotiation. The repos below are the public ones; the engagements happen privately.
+I build production systems clients own and run in their own cloud — RAG over operational data, agent workflows, custom apps. The work that pulls me in is the cross-system flows their legacy ERP, BI, and CRM stack couldn't deliver: reporting, approvals, and exports the per-seat tools were never going to build. The licenses retire alongside.
 
-**Practice:** [evanparra.ai](https://evanparra.ai)
+The repos below are the public ones; embedded engagements happen privately.
+
+**Practice (outside builds):** [evanparra.ai](https://evanparra.ai)
 
 ---
 
 ## What I Ship
 
-**Founding engagement — Regional commercial electrical contractor (NE Florida, anonymized).** Embedded in the client's Azure tenant, replacing Viewpoint Vista and Trimble per-seat workflows app by app. **~$150K/yr in retired seat cost (and growing).** ERP stays the system of record; the seats don't.
+**Founding engagement — Regional commercial electrical contractor (NE Florida, anonymized).** Embedded in the client's Azure tenant, replacing per-seat ERP workflows app by app — cost-to-complete forecasting, change orders, approvals, and the cross-system flows the per-seat tools were never going to build. **~$150K/yr in retired per-seat ERP cost (and growing).** The ERP stays the system of record; the seats don't.
 
 **Cross-vertical proof — my own products, both live:**
 
@@ -23,7 +25,7 @@ I run a specialist practice replacing per-seat licensed software — ERP modules
 
 | Area | Focus |
 |------|-------|
-| **SaaS seat replacement** | Custom apps replacing per-user ERP, BI, and workflow tool licenses |
+| **Custom workflow apps** | Production systems in client clouds — cross-system reporting, multi-stage approvals, and exports legacy ERP, BI, and CRM tools couldn't build; per-seat licenses retire alongside |
 | **Generative AI** | Diffusion models, fine-tuning (LoRA/QLoRA), multi-modal pipelines, content safety |
 | **LLM Applications** | RAG systems, prompt chaining, MCP tool servers, agent orchestration |
 | **ML Pipelines** | End-to-end data ingestion → feature engineering → model deployment |
@@ -166,3 +168,5 @@ Frontend:       Next.js, React, TypeScript
 ---
 
 *Booking discovery engagements through [evanparra.ai](https://evanparra.ai). Based in NE Florida; embedded work in Azure or GCP tenants.*
+5. Update pinned repos (§3)
+6. Fix `gammarips-engine` homepage URL + add `lora-finetune-lab` topics (§4a-b)
