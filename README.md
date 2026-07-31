@@ -1,172 +1,75 @@
 # Evan Parra
 
-### AI engineer · St. Augustine / Jacksonville, FL
+**AI engineer. St. Augustine / Jacksonville, FL.**
 
-I build production systems clients own and run in their own cloud — RAG over operational data, agent workflows, custom apps. The work that pulls me in is the cross-system flows their legacy ERP, BI, and CRM stack couldn't deliver: reporting, approvals, and exports the per-seat tools were never going to build. The licenses retire alongside.
+I ship production systems as one engineer. What makes that work is the harness: a spec-driven agentic SDLC with a skills library, adversarial review gates that can veto a change, and architecture rules enforced in lint instead of written in a wiki. Agents write most of the code. The harness is what makes it safe to keep.
 
-The repos below are the public ones; embedded engagements happen privately.
+Everything below came out of that loop. Most of the client work is private; these are the public ones.
 
-**Practice (outside builds):** [evanparra.ai](https://evanparra.ai)
+**Written up:**
 
----
+- [A solo engineer's production SDLC with AI agents](https://evanparra.ai/blog/solo-engineer-production-sdlc-with-ai-agents)
+- [Lint as architecture enforcement](https://evanparra.ai/blog/lint-as-architecture-enforcement)
+- [An independent AI code review gate](https://evanparra.ai/blog/independent-ai-code-review-gate)
+- [Verify every write to the system of record](https://evanparra.ai/blog/verify-every-write-to-the-system-of-record)
 
-## What I Ship
+Practice: [evanparra.ai](https://evanparra.ai)
 
-**Founding engagement — Regional commercial electrical contractor (NE Florida, anonymized).** Embedded in the client's Azure tenant, replacing per-seat ERP workflows app by app — cost-to-complete forecasting, change orders, approvals, and the cross-system flows the per-seat tools were never going to build. **~$150K/yr in retired per-seat ERP cost (and growing).** The ERP stays the system of record; the seats don't.
+## Current work
 
-**Cross-vertical proof — my own products, both live:**
+**Embedded with a regional commercial electrical contractor, NE Florida.** Founding software engineer, now leading their small engineering team. Custom apps built inside the client's own Azure tenant: cost-to-complete forecasting, change orders, approvals, reporting. Their tenant, their repo, their code, and the team ships on the same harness I do.
 
-- **[TextTimeline](https://texttimeline.com)** — legal document intelligence. Messy text exports become attorney-ready chronological timelines with 100% source citations. FAISS + BM25 hybrid retrieval, Cloud Run, Firestore, Gemini. *(Source private — paid product.)*
-- **[GammaRips](https://gammarips.com)** — autonomous overnight options-flow scanner. 14 Cloud Run services, ~20 schedulers, multi-agent ADK publishing layer with deterministic compliance gating.
+**Products I run:**
 
----
+- **[TextTimeline](https://texttimeline.com)**: legal document intelligence. Messy text exports become chronological timelines with a citation on every entry. FAISS + BM25 hybrid retrieval, Cloud Run, Firestore, Gemini. *(Source private, paid product.)*
+- **[GammaRips](https://gammarips.com)**: overnight options-flow scanner. 14 Cloud Run services, ~20 schedulers, multi-agent ADK publishing layer with deterministic compliance gating.
 
-## 🔧 What I Build
+## Public repos
 
-| Area | Focus |
-|------|-------|
-| **Custom workflow apps** | Production systems in client clouds — cross-system reporting, multi-stage approvals, and exports legacy ERP, BI, and CRM tools couldn't build; per-seat licenses retire alongside |
-| **Generative AI** | Diffusion models, fine-tuning (LoRA/QLoRA), multi-modal pipelines, content safety |
-| **LLM Applications** | RAG systems, prompt chaining, MCP tool servers, agent orchestration |
-| **ML Pipelines** | End-to-end data ingestion → feature engineering → model deployment |
-| **Evaluation & Safety** | Hallucination detection, factual accuracy, brand safety, A/B benchmarking |
-| **MLOps** | CI/CD for ML, model versioning, monitoring, cost optimization |
-| **Data Engineering** | BigQuery, ETL/ELT pipelines, multi-source integration |
+**Trading and data platform**
 
----
+- **[gammarips-engine](https://github.com/DevDizzle/gammarips-engine)**: signal platform over ~10GB/day of market data. LLM-augmented ETL, MCP tool server, GitHub Actions to Cloud Build to Cloud Run. *Python, BigQuery, Vertex AI, Pub/Sub.*
+- **[gammarips-models](https://github.com/DevDizzle/gammarips-models)**: the ML core behind the signals, on a quarterly retraining cadence.
+- **[gammarips-webapp](https://github.com/DevDizzle/gammarips-webapp)**: customer-facing surface. Daily picks, subscription billing, compliance disclosures.
+- **[gammarips-mcp](https://github.com/DevDizzle/gammarips-mcp)**: MCP server so agents can query financial data. FastMCP on Cloud Run, SSE transport.
 
-## 🚀 Public Production Systems
+**Generative AI and evaluation**
 
-### [GammaRips Engine](https://github.com/DevDizzle/gammarips-engine)
-Autonomous trading signal platform processing ~10GB daily market data. Full MLOps lifecycle from ingestion to deployment.
+- **[genai-eval-framework](https://github.com/DevDizzle/genai-eval-framework)**: hallucination detection via cross-encoder NLI plus semantic similarity, content safety scoring, and A/B model comparison with paired t-tests. HTML and JSON reports for CI. *Transformers, Sentence-Transformers, Detoxify, Pydantic.*
+- **[lora-finetune-lab](https://github.com/DevDizzle/lora-finetune-lab)**: QLoRA fine-tuning with 4-bit NF4 quantization, PEFT adapters, TRL SFTTrainer, and W&B tracking. *Transformers, PEFT, TRL, Accelerate.*
+- **[diffusion-style-transfer](https://github.com/DevDizzle/diffusion-style-transfer)**: SDXL base and refiner with IP-Adapter style conditioning, CLIP-based consistency scoring, NSFW filtering. *Diffusers, OpenCLIP, PyTorch.*
+- **[whisper-multimodal-pipeline](https://github.com/DevDizzle/whisper-multimodal-pipeline)**: audio to transcription to Gemini analysis to Pydantic-validated JSON. Whisper and Google STT backends, async with retries.
 
-- LLM-augmented ETL with prompt chaining
-- MCP server for AI agent tool-calling
-- CI/CD: GitHub Actions → Cloud Build → Cloud Run
-- 50% inference cost reduction via dynamic model routing
+**Agents and RAG**
 
-**Stack:** Python, BigQuery, Vertex AI, Cloud Run, Pub/Sub, MCP
+- **[healthcare-graph-rag-agent](https://github.com/DevDizzle/healthcare-graph-rag-agent)**: clinical Q&A over a medical knowledge graph, citation-backed. *ADK, Gemini, Spanner Graph, Cloud Run.*
+- **[galatiq-invoice-agent](https://github.com/DevDizzle/galatiq-invoice-agent)**: multi-agent invoice lifecycle (ingest, validate, approve, pay) with self-correction on extraction. *LangGraph, FastAPI, Cloud Run.*
+- **[serverless-pii-vault](https://github.com/DevDizzle/serverless-pii-vault)**: event-driven file storage with user isolation and irreversible PII redaction. *Cloud DLP, Vertex AI, Cloud Run.*
+- **[SciPaper-Chat](https://github.com/DevDizzle/SciPaper-Chat)**: multi-document paper Q&A with citation tracking. *Vertex AI Vector Search, Gemini, Firestore.*
+- **[yolov9-object-detection-guide](https://github.com/DevDizzle/yolov9-object-detection-guide)**: end-to-end guide to fine-tuning YOLOv9 on custom datasets. Written during my M.S. coursework. *PyTorch.*
 
-### [GammaRips Webapp](https://github.com/DevDizzle/gammarips-webapp)
-Customer-facing surface for GammaRips. Daily mechanically-held picks, subscription billing, compliance disclosures.
-
-### [GammaRips Models](https://github.com/DevDizzle/gammarips-models)
-ML core for the GammaRips signal stack. ~3x precision lift versus baseline, with a quarterly retraining cadence.
-
-### [MCP Financial Tools Server](https://github.com/DevDizzle/gammarips-mcp)
-Model Context Protocol server enabling AI agents to query real-time financial data. Production-deployed on Cloud Run with SSE transport.
-
-**Stack:** Python, FastMCP, BigQuery, Cloud Run
-
----
-
-## 🧪 Generative AI & Evaluation
-
-### [GenAI Evaluation Framework](https://github.com/DevDizzle/genai-eval-framework)
-Production evaluation framework for generative AI systems. NLI-based hallucination detection, factual accuracy verification, content safety scoring, and A/B model benchmarking with statistical significance testing.
-
-- Hallucination detection via cross-encoder NLI + semantic similarity
-- Brand safety scoring with configurable content rating (G/PG/PG-13/R)
-- A/B comparison engine with paired t-test and effect size analysis
-- HTML + JSON reporting for CI/CD integration
-
-**Stack:** Transformers, Sentence-Transformers, Detoxify, Scikit-Learn, Pydantic
-
-### [LoRA Fine-Tuning Lab](https://github.com/DevDizzle/lora-finetune-lab)
-Parameter-efficient fine-tuning of LLMs using QLoRA. 4-bit quantization with PEFT adapters, full training pipeline with experiment tracking.
-
-- QLoRA with BitsAndBytes NF4 quantization
-- SFTTrainer from TRL with gradient accumulation
-- Weights & Biases experiment tracking and evaluation
-- Interactive inference with streaming output
-
-**Stack:** Transformers, PEFT, TRL, Accelerate, BitsAndBytes, W&B
-
-### [Diffusion Style Transfer](https://github.com/DevDizzle/diffusion-style-transfer)
-Text-to-image generation with Stable Diffusion XL, IP-Adapter style conditioning, and content safety guardrails.
-
-- SDXL base + refiner pipeline with safety-first architecture
-- Brand consistency scoring via CLIP embeddings
-- Content rating system (G/PG/PG-13) for family-friendly generation
-- NSFW classification and automated content filtering
-
-**Stack:** Diffusers, Transformers, OpenCLIP, PyTorch, Pillow
-
-### [Whisper Multimodal Pipeline](https://github.com/DevDizzle/whisper-multimodal-pipeline)
-Cross-modal AI pipeline: audio transcription → LLM analysis → structured output. Dual backend support with async orchestration.
-
-- Whisper + Google Cloud Speech-to-Text dual backends
-- Gemini-powered analysis: sentiment, entities, topics, action items
-- Pydantic-validated structured JSON output
-- Async pipeline with retry logic and batch processing
-
-**Stack:** OpenAI Whisper, Google Generative AI, Pydantic, PyDub
-
----
-
-## 📂 More Projects
-
-### [Healthcare Graph RAG Agent](https://github.com/DevDizzle/healthcare-graph-rag-agent)
-Knowledge-grounded clinical Q&A agent using Graph RAG with Google Cloud. Combines medical knowledge graphs with retrieval-augmented generation for accurate, citation-backed healthcare answers.
-
-**Stack:** Python, ADK, Gemini, Spanner Graph, Vertex AI, Cloud Run
-
-### [Autonomous Invoice Agent](https://github.com/DevDizzle/galatiq-invoice-agent)
-Multi-agent system automating invoice lifecycle: Ingestion → Validation → Approval → Payment. Self-correction loops for data extraction.
-
-**Stack:** Python, LangGraph, xAI Grok, FastAPI, Cloud Run
-
-### [Serverless PII Vault](https://github.com/DevDizzle/serverless-pii-vault)
-Secure file storage with user isolation and irreversible PII redaction using event-driven architecture.
-
-**Stack:** Cloud Run, Cloud DLP, Vertex AI, FastAPI
-
-### [RAG Paper Analyzer](https://github.com/DevDizzle/SciPaper-Chat)
-Multi-document scientific paper Q&A with citation tracking. Vertex AI Vector Search + Gemini.
-
-**Stack:** RAG, Vertex AI, Gemini, FastAPI, Firestore
-
-### [YOLOv9 Detection Guide](https://github.com/DevDizzle/yolov9-object-detection-guide)
-Computer vision research from M.S. AI coursework at Florida Atlantic University — end-to-end guide for fine-tuning YOLOv9 on custom datasets.
-
-**Stack:** PyTorch, YOLO, Computer Vision
-
----
-
-## 💻 Tech Stack
+## Stack
 
 ```
-Generative AI:  Diffusers, PEFT/LoRA, Whisper, Stable Diffusion, CLIP
-ML/AI:          Vertex AI, Gemini, TensorFlow, PyTorch, Scikit-Learn
-Evaluation:     Sentence-Transformers, Detoxify, W&B, custom frameworks
-Cloud:          GCP (BigQuery, Cloud Run, Pub/Sub, Cloud Functions, Vertex AI), Azure (client engagements)
-MLOps:          GitHub Actions, Cloud Build, Docker, Model Registry
-Data:           Python, SQL, Pandas, dbt, Airflow
-Backend:        FastAPI, Python, Node.js
-Frontend:       Next.js, React, TypeScript
+GenAI:      Diffusers, PEFT/LoRA, Whisper, Stable Diffusion, CLIP
+ML/AI:      Vertex AI, Gemini, PyTorch, TensorFlow, Scikit-Learn
+Evaluation: Sentence-Transformers, Detoxify, W&B, custom frameworks
+Cloud:      GCP (BigQuery, Cloud Run, Pub/Sub, Vertex AI), Azure on client work
+MLOps:      GitHub Actions, Cloud Build, Docker, model registry
+Data:       Python, SQL, Pandas, dbt, Airflow
+Backend:    FastAPI, Python, Node.js
+Frontend:   Next.js, React, TypeScript
 ```
 
----
+## Background
 
-## 📜 Credentials
+- M.S. Artificial Intelligence, Florida Atlantic University
+- B.A. Economics, Florida International University
+- Google Professional Machine Learning Engineer
+- Google Advanced Data Analytics
 
-- **M.S. Artificial Intelligence** — Florida Atlantic University
-- **B.A. Economics** — Florida International University
-- **Google Professional Machine Learning Engineer**
-- **Google Advanced Data Analytics**
-- **Lean Six Sigma Green Belt**
-- **EVANPARRA.AI LLC** — SAM.gov registered (UEI FPLQTQK39ZE1), SBIR/STTR eligible (CLARA / DARPA proposal submitted Mar 2026)
+## Contact
 
----
-
-## 📫 Connect
-
-- **Practice:** [evanparra.ai](https://evanparra.ai)
-- **Email:** evan@evanparra.ai
-- **LinkedIn:** [linkedin.com/in/evanparra](https://linkedin.com/in/evanparra)
-
----
-
-*Booking discovery engagements through [evanparra.ai](https://evanparra.ai). Based in NE Florida; embedded work in Azure or GCP tenants.*
-5. Update pinned repos (§3)
-6. Fix `gammarips-engine` homepage URL + add `lora-finetune-lab` topics (§4a-b)
+- [evanparra.ai](https://evanparra.ai)
+- evan@evanparra.ai
+- [linkedin.com/in/evanparra](https://linkedin.com/in/evanparra)
