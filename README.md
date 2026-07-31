@@ -29,7 +29,6 @@ Practice: [evanparra.ai](https://evanparra.ai)
 **Trading and data platform**
 
 - **[gammarips-engine](https://github.com/DevDizzle/gammarips-engine)**: signal platform over ~10GB/day of market data. LLM-augmented ETL, MCP tool server, GitHub Actions to Cloud Build to Cloud Run. *Python, BigQuery, Vertex AI, Pub/Sub.*
-- **[gammarips-models](https://github.com/DevDizzle/gammarips-models)**: the ML core behind the signals, on a quarterly retraining cadence.
 - **[gammarips-webapp](https://github.com/DevDizzle/gammarips-webapp)**: customer-facing surface. Daily picks, subscription billing, compliance disclosures.
 - **[gammarips-mcp](https://github.com/DevDizzle/gammarips-mcp)**: MCP server so agents can query financial data. FastMCP on Cloud Run, SSE transport.
 
