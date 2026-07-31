@@ -17,7 +17,7 @@ Practice: [evanparra.ai](https://evanparra.ai)
 
 ## Current work
 
-**Embedded with a regional commercial electrical contractor, NE Florida.** Founding software engineer, now leading their small engineering team. Custom apps built inside the client's own Azure tenant: cost-to-complete forecasting, change orders, approvals, reporting. Their tenant, their repo, their code, and the team ships on the same harness I do.
+**Embedded with a regional commercial electrical contractor, NE Florida.** Software engineer building custom apps inside the client's own Azure tenant:  forecasting, change orders, approvals, reporting. Their tenant, their repo, their code, and the team ships on the same harness I do.
 
 **Products I run:**
 
